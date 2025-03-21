@@ -26,15 +26,9 @@ The HPV vaccine works best if it’s given before young people become sexually a
 
 [Find out more about the HPV vaccine on NHS.UK](https://www.nhs.uk/conditions/vaccinations/hpv-human-papillomavirus-vaccine/)
 
-<<<<<<<< HEAD:app/guide/consent-reminder-email-hpv.md
-### Please give or refuse consent
-
-==consent URL==
-========
 ## Please give or refuse consent
 
 ==consent_link==
->>>>>>>> 5e35cfd (Replace `.md` files):app/guide/notify-email-first-consent-reminder-for-hpv.md
 
 Responding will take less than 5 minutes. If you do not give consent, it’s still important for you to respond.
 
