@@ -15,6 +15,8 @@ DEFAULT_TEMPLATE_IDS = [
 
 def get_govuk_client() -> NotificationsAPIClient:
     api_key = os.getenv('NOTIFY_API_KEY')
+    if not api_key:
+        raise ValueError("NOTIFY_API_KEY is not set or is empty.")
     return NotificationsAPIClient(api_key)
 
 
