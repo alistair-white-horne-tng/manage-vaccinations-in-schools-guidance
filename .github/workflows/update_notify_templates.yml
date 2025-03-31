@@ -5,7 +5,9 @@ on:
 #    # Runs at 23:00 UTC Monday through Friday
 #    - cron: "0 23 * * 1-5"
   workflow_dispatch:
-  pull_request:
+  push:
+    branches:
+      - update-notify-templates
 
 jobs:
   run-script:
