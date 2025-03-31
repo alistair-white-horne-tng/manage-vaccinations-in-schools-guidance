@@ -5,8 +5,6 @@ on:
 #    # Runs at 23:00 UTC Monday through Friday
 #    - cron: "0 23 * * 1-5"
 #
-  schedule:
-    - cron: "* * * * *"
   workflow_dispatch:
 
 jobs:
