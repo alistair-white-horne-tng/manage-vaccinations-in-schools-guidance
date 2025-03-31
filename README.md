@@ -14,7 +14,14 @@ The canonical source of content for the user guide is a Google Doc. This documen
 
 The canonical source of content for the XLSX file download templates is Microsoft SharePoint. These documents should be edited first before downloading and updating the files in this repository.
 
-### Updating the GOV.UK Notify templates
+## Updating the GOV.UK Notify templates
+
+### Using GitHub Actions
+
+The Notify templates can be updated automatically using GitHub Actions. This is done by manually triggering the
+`update_notify_templates` workflow.
+
+### Manually (locally)
 
 Set up python in the `update_notify_templates` directory:
 
@@ -34,6 +41,8 @@ To update the Notify templates, run the following command from the `update_notif
 ```bash
 python update_notify_templates.py
 ```
+
+These changes then need to be committed and pushed to the repository's `main` branch.
 
 ## Running locally
 
