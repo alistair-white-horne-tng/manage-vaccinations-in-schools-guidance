@@ -49,7 +49,7 @@ jobs:
           if [ -n "$(git status --porcelain)" ]; then
             git add .
             git commit -m "Update notify templates"
-            git push origin main
+            git push origin schedule-update-notify-templates
           else
             echo "No changes to commit."
           fi
